@@ -19,7 +19,7 @@ Voici une weather app utilisant la géolocalisation si l'utilisateur l'autorise 
 
 
 
-[ScreenShot](/screen.png)
+[ScreenShot](http://hpics.li/facf5b0)
 
 
 DEMO: [ici](https://dondes17.github.io/weather_app/)  
