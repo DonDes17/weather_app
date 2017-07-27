@@ -1,0 +1,39 @@
+@import 'mixins';
+@import 'variables&colors';
+.load {
+  text-align: center;
+  position: relative;
+  margin-top: 20%;
+}
+
+h1 {
+  text-align: center;
+  color: $grey;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  text-align: center;
+  h2 {
+    font-size: $FS-secondary;
+  }
+  .description {
+    color: $grey;
+    font-size: $FS-primary;
+  }
+  .temp {
+    font-size: $FS-secondary;
+  }
+}
+
+.background {
+  background-image: url("/src/img/pexels-1.jpeg");
+  @include img-bg;
+}
+
+.fa-sun-o {
+  font-size: $FS-primary;
+}
